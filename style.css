@@ -1,0 +1,120 @@
+header, .nav-item a{
+    background-color: #101014;
+    color: #96969a;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+header{
+    position: sticky;
+    top:0;
+    left: 0;
+    z-index: 1000;
+}
+
+
+.navbar button{
+    background-color: transparent;
+    color: #96969a;
+    border: none;
+    left: 50px;
+    top: 4px;
+    aspect-ratio: 1;
+    position: absolute;
+    height: 100%;
+}
+
+.form-control:focus{
+    background-color: #101014;
+    color: #96969a;
+}
+
+.navbar input{
+    background-color: #101014;
+    border: 1px solid #96969a;
+    border-radius: 16px;
+    padding: 0 16px 0 48px;
+    width: 100%;
+    height: 40px;
+    margin: 0 16px 0 48px;
+}
+
+a.nav-link:hover{
+    color: #96969a;
+}
+
+.navbar form{
+    position: relative;
+}
+
+.carousel-item img{
+    width: 600px;
+    height: 450px;
+}
+
+body{
+    background-color: #1c1c23;
+}
+
+h2, h5, p, .card-header{
+    color: #96969a;
+    text-align: center;
+    font-family: "National Park", sans-serif;
+}
+
+form label{
+    color: aliceblue;
+}
+
+.card-img{
+    max-width: 640px;
+    width: 100%;
+}
+
+#art-classica .card-img{
+    max-width: 640px;
+    height: 240px;
+    width: 100%;
+}
+
+#nav-manga .nav-link.active{
+    background-color: #96969a;
+    color: #1c1c23;
+}
+
+#nav-manga .nav-link{
+    background-color: #34343c;
+    color:#96969a;
+
+}
+
+#nav-manga button{
+    color: #96969a;
+}
+
+#mensagem{
+    resize: none;
+}
+
+#conts h4, #conts i{
+    color: #96969a;
+}
+
+#conts .bi.bi-instagram{
+    color: rgb(231, 139, 155);
+}
+
+#conts .bi.bi-tiktok{
+    color: rgb(63, 63, 255);
+}
+
+#art-ia, #art-moderna, #manga{
+    padding-top: 70px;
+}
+
+@media (max-width:640px) {
+    .carousel-inner.rounded img{
+        max-width: 380px;
+        max-height: 450px;
+        height: 100%;
+    }
+}
